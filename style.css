@@ -1,0 +1,136 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  background: #333;
+ 
+}
+
+.box{
+ width: 80%;
+height: 400px;
+ background: linear-gradient(45deg,lightblue,lightpink,lime,lightgreen);
+ padding: 5px;
+ 
+  border-radius: 10px;
+  margin-top: 100px;
+ 
+}
+
+#text{
+  width: 70%;
+  height: 25px;
+ border: none;
+ border-radius: 5px;
+ padding: 5px;
+ outline-color: blue;
+  
+}
+
+#btn{
+  width: 25%;
+height: 25px;
+border-radius: 3px;
+  
+}
+
+
+form{
+padding-top: 20px;
+ 
+  height: 60px;
+ 
+}
+
+#list{
+  width: 100%;
+ 
+ 
+  list-style: none;
+
+  
+}
+li{
+  background: green;
+  width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+
+
+.btnn{
+   width: 40px;
+   height: 40px;
+  background: red;
+  margin: -5px;
+  border-radius:10px;
+}
+
+.fa-regular {
+  font-size: 30px;
+}
+
+.ll{
+  width: 100%;
+  background: black;
+  height: 290px;
+  overflow: scroll;
+  border-radius:10px;
+  height: 92%;
+}
+
+@media (max-width: 600px){
+  body{
+    background: red;
+  }
+  
+}
+
+
+.bg-s{
+  width: 150px;
+  height: 40px;
+  background: seagreen;
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+  font-family: fantasy;
+  border-radius: 10px;
+  
+  
+}
+
+.bg-d{
+  width: 150px;
+  height: 40px;
+  background: red;
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+  font-family: fantasy;
+    border-radius: 10px;
+
+}
+@media only screen and (min-width: 600px) {
+.container{
+    background: linear-gradient(45deg,green,blue,yellow);
+  }
+  
+ .box{
+   height: 80%;
+ }
+}
