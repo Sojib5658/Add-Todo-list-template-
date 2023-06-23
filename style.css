@@ -17,7 +17,7 @@
 
 .box{
  width: 80%;
-height: 92%;
+height: 80%;
  background: linear-gradient(45deg,lightblue,lightpink,lime,lightgreen);
  padding: 5px;
  
@@ -87,18 +87,13 @@ li{
 .ll{
   width: 100%;
   background: black;
-  height: 290px;
+ 
   overflow: scroll;
   border-radius:10px;
-  height: 92%;
+  height: 85%;
 }
 
-@media (max-width: 600px){
-  body{
-    background: red;
-  }
-  
-}
+
 
 
 .bg-s{
@@ -133,4 +128,8 @@ li{
  .box{
    height: 80%;
  }
+.ll{
+  height: 90%;
+  
+}
 }
